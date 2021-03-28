@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+header{
+    text-align:center;
+    letter-spacing:2px;
+    margin:30px auto;
+}
+header .fas,span{
+    color:rgb(15, 194, 194);
+}
+form{
+    text-align:center;
+}
+#form-group{
+    margin-top:10px;
+    
+}
+input[type="text"]{
+    width:40%;
+    outline:none;
+}
+input[type="number"]{
+    width:40%;
+    outline:none;
+}
+input[type="submit"]{
+    width:10%;
+    background-color:rgb(15, 194, 194);
+    outline:none;
+    
+
+}
+#submit:focus{
+    outline:none;
+}
+table{
+    margin:auto;
+    margin-top:30px;
+}
+table th{
+    text-align: center;
+    padding:8px 20px;
+    font-weight: 400;
+}
+table td,th{
+    border-bottom:1px solid black;
+    margin-left:0;
+}
+#book-list{
+    text-align:center;
+}
+.delete{
+    text-decoration:none;
+    color:black;
+    background: #ff0015;
+    padding:0.5px 5px;
+    
+    border-radius: 3px;
+    text-align: center;
+}
+
+.alert-danger{
+    background-color:rgb(218, 44, 44);
+    width:40%;
+    margin:auto;
+    padding:6px 10px;
+}
+.alert-focus{
+    background-color:rgb(23, 209, 100);
+    width:40%;
+    margin:auto;
+    padding:6px 10px;
+}
+.alert-info{
+    background-color:rgb(82, 241, 96);
+    width:40%;
+    margin:auto;
+    padding:6px 10px;
+}
+.read{
+    background: rgb(45, 219, 83);
+    padding:0.5px 5px;
+    text-decoration: none;
+    color:black;
+    border-radius: 3px;
+    
+}
+.not-read{
+    background: rgb(245, 151, 209);
+    padding:0.5px 5px;
+    text-decoration: none;
+    color:black;
+    border-radius: 3px;
+    
+}

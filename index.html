@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a0a5cca9a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>BookList</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1><i class="fas fa-book"></i>My<span>Book</span>List</h1>
+    </header>
+
+    <form  id="form-book">
+        <div id="form-group">
+        <input type="text" id="title" placeholder="Title">
+    </div>
+    <div id="form-group">
+        <input type="text" id="author" placeholder="author">
+    </div>
+        <div id="form-group">
+        <input type="number" id="pageNo" placeholder="page number">
+    </div>
+        <div id="form-group">
+        <input type="submit" id="submit" >
+    </div>
+    </form>
+    <table>
+        <thead>
+            <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Page No</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+    </table>
+</div>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
